@@ -9,7 +9,8 @@ html
     title= title
 
   body
-    div.loader
+    div(class='uil-ring-css', style='transform:scale(1);')
+      div
 
     div#wrapper
 
@@ -35,10 +36,6 @@ html
           nav#menu
             header.major
               h2 Menu
-            //-
-              ul
-                li 
-                  a(href="#") test
 
     script(src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js")
 
@@ -46,8 +43,6 @@ html
     script(src="/assets/js/editorial/util.js")
     script(src="/assets/js/editorial/main.js")
 
-    script(src="/assets/js/loading/loading.js")
-    //- script(src="assets/js/menu-toggle/menu-toggle.js")
     script(src="/assets/js/menu/menu.js")
     script(src="/assets/js/functions/functions.js")
 
