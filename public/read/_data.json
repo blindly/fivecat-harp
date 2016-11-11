@@ -26,8 +26,8 @@
    "password": {
      "title": "Passwords"
    },
-   "recent": {
-     "title": "Recent News"
+   "trending": {
+     "title": "Now Trending"
    },
    "startups": {
      "title": "Startup News"

@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var newsblurAPI = "//www.newsblur.com/reader/river_stories&page=1,2";
-  $.getJSON(newsblurAPI, function (json) {
+  let url = "//www.newsblur.com/reader/river_stories&page=1,2";
+  $.getJSON(url, function (json) {
 
     var stories = json.stories;
 

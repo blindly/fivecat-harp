@@ -2,7 +2,7 @@
     // All items we'd like to add
     var navItems = [
         //{href: 'index.html', text: 'river'},
-        {href: '/read/recent', text: 'recent'},
+        {href: '/read/trending', text: 'trending'},
         {href: '/read/startups', text: 'startups'},
         //{href: 'trending.html', text: 'trending'},
         //{href: 'wikinews.html', text: 'wikinews'},
