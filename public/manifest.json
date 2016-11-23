@@ -1,0 +1,7 @@
+{
+  "name": "fivecat",
+  "short_name": "fivecat",
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "landscape"
+}
